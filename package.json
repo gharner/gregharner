@@ -1,7 +1,7 @@
 {
   "description": "gregharner.com",
-  "main": "dist/privatecode.js",
-  "name": "privatecode",
+  "main": "dist/gregharner.js",
+  "name": "gregharner",
   "type": "commonjs",
   "types": "dist/privatecode.d.js",
   "version": "1.0.0",
