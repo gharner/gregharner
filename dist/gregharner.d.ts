@@ -1,3 +1,3 @@
-export declare class PrivateCode {
-    calculateAge(birthday: string): number;
+export declare class GregHarner {
+	calculateAge(birthday: string): number;
 }

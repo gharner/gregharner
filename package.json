@@ -3,7 +3,7 @@
   "main": "dist/gregharner.js",
   "name": "gregharner",
   "type": "commonjs",
-  "types": "dist/privatecode.d.js",
+  "types": "dist/gregharner.d.js",
   "version": "1.0.0",
   "scripts": {},
   "keywords": [],
