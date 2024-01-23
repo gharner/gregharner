@@ -4,7 +4,12 @@
   "name": "gregharner",
   "type": "commonjs",
   "types": "dist/gregharner.d.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "homepage": "https://gregharner.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gharner/gregharner"
+  },
   "scripts": {},
   "keywords": [],
   "author": "Greg Harner",
