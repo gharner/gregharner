@@ -11,4 +11,26 @@ export class GregHarner {
 
 		return age;
 	}
+	stringyPretty(object: any) {
+		let cache: unknown[] = [];
+
+		const data: string = JSON.stringify(object, (key: string, value: unknown) => {
+			if (typeof value === 'object' && value !== null) {
+				if (cache.indexOf(value as never) !== -1) {
+					// Duplicate reference found, discard key
+					return;
+				}
+				// Store value in our collection
+				cache.push(value);
+			}
+
+			return value;
+		});
+		cache = [];
+
+		const cleanData = JSON.parse(data);
+		const prettyData = JSON.stringify(cleanData, null, '\t');
+
+		return prettyData;
+	}
 }

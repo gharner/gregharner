@@ -4,13 +4,15 @@
   "name": "gregharner",
   "type": "commonjs",
   "types": "dist/gregharner.d.js",
-  "version": "1.0.1",
+  "version": "1.2.1",
   "homepage": "https://gregharner.com",
   "repository": {
     "type": "git",
     "url": "git://github.com/gharner/gregharner"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [],
   "author": "Greg Harner",
   "license": "MIT"
